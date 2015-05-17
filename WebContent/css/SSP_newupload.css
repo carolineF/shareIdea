@@ -1,0 +1,251 @@
+.f-main-content{
+	width: 1100px;
+	height: 600px;
+}
+.f-content-left{
+	width: 550px;
+	height: 600px;
+	float: left;
+}
+/*将text-align:center删除*/
+.f-content-change{
+	height: 45px !important;
+	height:65px;
+	width: 280px;/*修改*/
+	margin-bottom: 20px;
+	margin-top:0px;
+}
+.f-content-change li{
+	float: left;
+	width: 124px;
+	display: inline;
+	line-height: 45px;
+	border-right: 1px solid #fff;
+	cursor: pointer;
+	background-color: #E7E7E7;
+}
+
+.f-content-change li:hover,.f-nav-menu li:hover{
+	background-color:#e44545;
+}
+select{
+    width: 96px;
+    *width: 100px; 
+    border: #FFF;
+    font-size: 16px;
+}
+.f-content-left-mess{
+	width: 400px;
+	margin-top: 30px;
+}
+.f-content-sort{
+	width: 100px;
+	margin: 0;
+}
+#initTable tr{
+	width: 430px;
+	height: 40px;
+}
+.f-content-mes{
+	width: 430px;
+	height: 40px;
+}
+.f-width314{
+	width: 314px;
+}
+.f-content-topic{
+	width: 314px;
+	height: 38px;
+}
+.f-bC51F1B{
+	background-color: #e44545;
+}
+.f-select-outer{
+	display: inline-block; 
+	*display: inline; 
+	zoom: 1; 
+	margin-top: 2px;
+	border: solid 1px #E3E9EF;  
+    border-top-color: #ABADB3;  
+	padding: 5px 0px 5px 0px;
+}
+.f-select-inner{
+	*display: inline; 
+	zoom: 1; 
+	height: 19px; 
+	overflow: hidden; 
+	position: relative;
+	border: 1px solid #FFF;
+}
+
+.f-content-topic-span{
+	display: inline-block;
+	width: 90px;/*修改*/
+	height: 30px;
+	text-align: right;
+	line-height: 30px;
+	font-size: 18px;/*修改*/
+	font-family: "微软雅黑";
+}
+.f-content-upload{
+	position: relative;
+	height: 80px;
+	width: 400px;
+	left: 20px;
+}
+/*.f-content-upload-button{
+	width: 150px;
+	height: 70px;
+	font-size: 26px;
+	background-color: #e44545;
+	overflow: hidden;
+	text-align: center;
+	line-height: 70px;
+	float: left;
+}*/
+.f-content-upload-button{
+	width: 130px;/*修改*/
+	height: 60px;
+	font-size: 26px;
+	background-color: #e44545;
+	overflow: hidden;
+	text-align: center;
+	line-height: 60px;
+	float: left;
+    color: white;/*修改*/
+}
+.f-content-upload-button:hover { 
+	cursor: pointer;
+}
+
+.txt{ 
+	height:30px; /*修改*/
+	line-height: 30px;
+	margin-left: 10px;
+	width: 210px;
+	overflow: hidden;
+	float: left;
+}
+/*bdd*/
+.file{
+	position: absolute;
+	left: 0px;
+	width: 50px;
+	height: 50px; 
+	opacity: 0;
+	filter:alpha(opacity=0);
+	cursor:pointer;
+}
+.f-content-propoty{
+	position: relative;
+	top: 10px;
+	left: 23px;
+	text-align: left;
+}
+.f-content-ok{
+	width: 80px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 20px;
+	background:#e44545;
+	text-align: center;
+	margin-left: 160px;
+    color: white;/*修改*/
+}
+.f-content-ok:hover{ 
+	background: #e44545;
+	color: white;cursor: pointer;
+}
+.f-content-right{
+	height: 600px;
+	width: 500px;
+	float: left;
+
+}
+.f-content-right-show{
+	font-size: 28px;
+	display: block;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.f-content-right-area{
+	width: 500px;
+	height: 500px;
+	font-size: 14px;
+	border: 1px solid #CCC;
+	resize:none;
+}
+.ideaSort1{ 
+	width: 62px;height: 32px;border:1px solid #ccc;font-size: 18px;
+}
+.onloadBtn{ 
+	width: 305px;height: 32px;font-size: 20px;border:1px solid #ccc;
+}
+/*修改的添加的*/
+.onloadBtnText{
+	width: 100px;height: 32px;font-size: 20px;border:1px solid #ccc;
+}
+/*通讯录列表*/
+.friendBorder{
+	position: absolute;
+	left: 1350px;
+	top: 150px;
+	/*visibility: hidden;*/
+	display: inline;
+	width: 300px;
+	background: #eee;
+}
+
+#friendList{
+	/*position: absolute;
+	top: 130px;*/
+	/*visibility: hidden;*/
+	margin-left: 0px;
+	display: inline;
+	width: 280px;
+	background:#eee;
+	height: 500px;
+}
+body{
+	overflow-x: hidden;
+}
+.addressListBtn{
+	width: 60px;
+	height: 30px;
+	border: 1px solid #CCC;
+	text-align: center;
+	line-height: 30px;
+	display: inline-block;
+}
+#sure{
+	margin-left: 75px;
+	background-color: #e44545;
+}
+#sure:hover{
+	background-color: #F51C1C;
+}
+#cancle{
+	margin-left: 10px;
+	background-color: #8AB0D5;
+}
+#cancle:hover{
+	background-color: #0E8DD6;
+}
+.mqAll{
+	margin-top: 10px;
+	cursor: pointer;
+}
+.mqClass{
+	background:#82E028;
+}
+/*修改之后的*/
+.f-modify{
+	height: 45px;
+	line-height: 45px;
+	color: white;/*修改*/
+}
+.errorMsg{
+	font-size:14px;
+	color:red;
+	margin-left:100px;
+}

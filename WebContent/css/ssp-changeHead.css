@@ -1,0 +1,368 @@
+/*完善信息-修改头像*/
+
+/*公用*/
+.w1100{
+	width: 1100px;
+	/*margin: 0 auto;*/
+	margin-left:auto;
+	margin-right: auto;
+}
+
+/*网站主体浅灰色*/
+.bd-main{
+    position: absolute;
+    /*top:127px;  */
+}
+/*主体第一层*/
+.bd-main-top{
+	width: 1088px;
+	height: 40px;
+	line-height: 40px;
+}
+/*按钮*/
+.bd-btn{
+	background: #CCCACA;
+	border: none;
+	font-family: 微软雅黑;
+}
+.bd-btn:hover{
+	background: #CB1E1A;
+    color: white;
+    cursor: pointer;
+}
+.bb1s{
+	 border-bottom: 1px solid #C9C9C9;
+}
+
+/*私有部分start*/
+/*修改头像主体容器背景大小*/
+.bd-main-ch{
+	height: 550px;
+	background: white;
+	border: 1px solid #C9C9C9;
+}
+/*修改头像主体左侧区域*/
+.bd-ch-left{
+    width: 570px;
+    margin-left: 135px;
+    margin-top: 25px;
+    border: 1px solid  #C9C9C9;
+}
+/*修改头像主体右侧区域*/
+.bd-ch-right{
+    width: 229px;
+    margin-right: 135px;
+    margin-top: 25px;
+    border: 1px solid  #C9C9C9;
+}
+/*修改头像主体上侧1.上传头像*/
+.bd-ch-title{
+	width: 570px;
+	line-height: 40px;
+	text-indent: 20px;
+	border-bottom:1px dotted #C9C9C9;
+}
+/*头像修改中心*/
+.bd-ch-img{
+	height: 320px;
+	border-bottom:1px dotted #C9C9C9;
+}
+/*头像修改中心左侧头像区*/
+.bd-l-img{
+	width: 130px;
+	height: 150px;
+	/*background: red;*/
+}
+#preview{ 
+	width: 100%;height: 100%;
+}
+/*头像修改中心右侧文本框和按钮*/
+.bd-r-sub{
+	width: 370px;
+	height: 320px;
+}
+.bd-r-sub p{
+	color:grey;
+}
+/*真正上传文件*/ /*********************注：有问题*************************/
+#doc {
+position:absolute;
+	z-index:2;
+	opacity: 0;
+	/*visibility: hidden;*/
+}
+#bd-browseText,#bd-browse{
+position:relative;
+z-index:1;
+}
+/*图片路径文本框*/
+#bd-browseText{
+	width:200px;
+	padding:3px;
+	border:1px solid #d0d0d0;
+}
+/*浏览按钮*/
+#bd-browse{
+	background:#eee;
+	border:1px solid #ccc;
+	height:23px;
+	padding:0 16px;
+	color:#666;
+}
+#bd-browse:hover{
+	cursor: pointer;
+}
+/*上传按钮*/
+#bd-img-upload{
+
+}
+/*常见问题区*/
+.bd-que-tit{
+  color: red;
+}
+.bd-question p{
+	color: grey;
+}
+/*******************************2、调整并保存头像start******************************************/
+/*按钮*/
+.bd-ch-img a{
+	width: 100px;
+	height: 40px;	
+	line-height: 40px;
+	display: block;
+}
+/*保存按钮*/
+.bd-save-btn{
+	color: white;
+	background: url(../images/红色背景.png);
+}
+.bd-save-btn:hover{
+	color: black;
+	opacity: 0.9;
+}
+/*取消按钮*/
+.bd-cancel-btn{
+	color: black;
+	border: 1px solid #DEDCDC;
+	background: url(../images/logo背景.png);
+}
+.bd-cancel-btn:hover{
+    opacity: 0.8;
+}
+/*拖拽头像区*/
+.bd-adjust{
+  width: 400px;
+  height: 250px;
+  margin: 10px auto;
+  background: pink;
+}
+/*******************************2、调整并保存头像end******************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*私有部分end*/
+/*资源评论区*/
+.bd-main-cmt{
+	width: 1076px;
+    border: 1px solid #C7C5C5;
+}
+/*资源评论区顶部*/
+.bd-main-cmt-top{
+	line-height: 40px;
+	border-bottom: 1px solid #C9C9C9;
+}
+/*他人评论区域*/
+.bd-cmt-blocks{
+    border-bottom: 1px solid #C9C9C9;
+}
+/*具体每一条评论块*/
+.bd-cmt-block{
+    height: 108px;
+	border-bottom: 1px dotted #C9C9C9;
+}
+/*隐藏块*/
+.bd-block-hidden{
+    display: none;
+}
+/*资源评论区的左侧他人头像*/
+.bd-cmt-img{
+   height: 108px;
+   width: 108px;
+}
+/*资源评论区右侧*/
+.bd-cmt-right{
+	width: 958px;
+	height: 108px;
+}
+/*资源评论区右侧*/
+.bd-cmt-rtop{
+	line-height: 30px;
+}
+/*评论者昵称*/
+.bd-othername:hover{
+	cursor: pointer;
+	color: red;
+}
+/*他人的评论内容*/
+.bd-other-cmt{
+    display: inline-block;
+    width: 700px;
+    overflow: hidden;
+    text-indent: 30px;
+}
+/*资源评论区底部*/
+.bd-cmt-bot{
+	height: 42px;
+	line-height: 42px;
+	border: none;
+}
+/*我要评论区域*/
+.bd-my-cmt{
+	width: 1076px;
+	height: 200px;
+	border: 1px solid #C7C5C5;
+}
+/*我的评论box*/
+.bd-mycmt-con{
+	width: 900px;
+	height: 120px;
+}
+/*我的评论文本框*/
+.bd-mycmt-text{
+	width: 900px;
+	height: 120px;
+	display: inline-block;
+	text-indent: 5px;
+}
+/*提交按钮*/
+.bd-sub-btn{
+	color: white;
+	border: none;
+	background: #fe3232;
+	font-family: 微软雅黑;
+}
+.bd-sub-btn:hover{
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/*网站尾部整体*/
+.bd-footer{
+    background: #3E3D49;
+}
+/*网站尾部左侧*/
+.bd-foot-left{
+	width: 720px;
+}
+/*网站尾部右侧区域*/
+.bd-foot-right{
+	width: 350px;
+	height: 270px;
+}
+/*网站尾部右侧连接*/
+.bd-foot-ra a{
+	color: #999994;
+}
+.bd-foot-ra a:hover{
+	color: red;
+}
+/*网站尾部右侧引入图片*/
+.bd-foot-icon{
+	background: url(../images/footer.jpg);
+	display: inline-block;
+	width: 27px;
+	height: 27px;
+}
+/*客服QQ的背景图片*/
+.bd-foot-qq{
+	background-position: -13px -2px;
+}
+/*在线客服背景图片*/
+.bd-foot-online{
+	background-position: -13px -41px;
+}
+/*微信背景图片*/
+.bd-foot-wx{
+	background-position: -13px -80px;
+}
+/*新浪背景图片*/
+.bd-foot-xl{
+	background-position: -13px -120px;
+}
+/*腾讯微博背景图片*/
+.bd-foot-tc{
+	background-position: -13px -160px;
+}
+
+/*网站尾部右侧条目：包括首页、关于我们、策略共享、个人主页、合作伙伴、联系我们、加入我们*/
+.bd-foot-item{
+	color: #999994;
+    line-height: 30px;
+}
+.bd-foot-item dd a{
+    color: #999994;
+}
+.bd-foot-item  dd a:hover{
+    cursor: pointer;
+    color: red;
+}
+.bd-foot-item dt a{
+	color: white;
+	font-family: 微软雅黑;
+	font-size: 21px;
+}
+.bd-foot-item  dt a:hover{
+    cursor: pointer;
+    color: red;
+}
+/*尾部版权所有*/
+.bd-footer p{
+	color: #FAFAFC;
+	margin-top: 10px;
+}

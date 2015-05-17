@@ -1,0 +1,119 @@
+﻿body{
+	font-style: å¾®è½¯é›…é»‘;
+}
+p{ 
+	margin-bottom: 0px;
+}
+.bodyDiv{
+	position:absolute;
+	margin:0 auto;
+	width:793px;
+	border: 3px solid #eee;
+	height: 6500px;
+}
+.w{
+		width: 100%
+	}
+.h50{
+		height: 50px
+	}
+.w500{
+		width: 500px
+	}
+.tac{/*æ–‡æœ¬å±…ä¸­*/
+		text-align: center;
+	}
+/* bdd  */
+#surveyDiv{
+	position: relative;
+	*position: relative;
+	overflow: hidden;
+	width: 800px;
+	margin-left: 300px;
+	height:2010px;
+}
+#divD{
+	position: absolute;
+	height:6200px;
+	background: green;
+	/*z-index: -1;*/
+}
+
+input{margin:0; padding:0;}
+
+
+
+.mH1{
+	margin:0 auto 10px;
+	width:300px;
+	height:50px;
+	font-size: 30px;
+	font-weight: normal;
+}
+.fd-radio{
+	margin-left:20px;
+	margin-top: 8px; 
+
+	margin-top:9px\0; /*Õë¶ÔIE8£»*/
+¡¡¡¡ margin-top:9px !important; /*Õë¶Ôfirefox¡£*/
+	
+	margin-right: 20px;
+	font-size: 14px;
+	display: inline;
+}
+@-moz-document url-prefix(){
+.fd-radio{
+	margin-top: 5.65px;
+}
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+.fd-radio{
+    margin-top:8px;/*chrome*/
+ }
+}
+
+
+.testBlock{ 
+	margin-left: 150px;	
+}
+.disBlock{ 
+	display: block;
+}
+h4{
+	display: inline;
+	font-weight: normal;
+	margin-left: 0;
+}
+.mbtn1{
+	border-radius: 5px;
+	width: 80px;
+	height:30px;
+	margin-left: 800px;
+	margin-top: 35px;
+	background-color: #DEDEDE;
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+	background: url(../image/button.png) -10px -5px;
+}
+.clickMe{
+	position: absolute;
+	margin-top: 1950px;
+	margin-left: 700px;
+	background:#eee;
+	width:80px;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bolder;
+}
+.clickMe:hover{
+	cursor: pointer;
+}
+.font{
+	position: absolute;
+	margin-top: 30px;
+	font-size: 80px;
+	font-weight: bolder;
+	margin-left: -20px;
+}

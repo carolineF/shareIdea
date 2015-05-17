@@ -1,0 +1,222 @@
+
+	.zh-m{
+	    height: 760px;
+	    margin-top: 18px;
+	}
+	.zh-main-table{
+	    width: 700px;
+	    margin-top: 22px;
+	    margin-left: 20px;
+	}
+	.zh-main-m{
+	position:absolute;
+	width:720px;
+	height:740px;
+	border:3px solid #DFDFDF;
+	}
+	.zh-main{
+	  height: 780px;
+	}
+	.zh-main-tr{
+	    height: 60px;
+	}
+	.zh-main-td{
+	    width: 25%;
+	}
+	.zh-main-tdt{
+	width:248px;
+	height:32px;
+	margin-left:18px;
+	font-size:18px;
+	font-family:寰蒋闆呴粦;
+	}
+    .zh-main-tds{
+    width:96px;
+    height:32px;
+    }
+    .zh-main-intro{
+    width:410px;
+    height:220px;
+    font-size:20px;
+    font-family:瀹嬩綋;
+    overflow-y:auto;
+    vertical-align:top;
+    }
+    .zh-main-tdc{
+    margin-left:18px;
+    }
+	.zh-main-tbn{
+	    width: 60px;
+	}
+    .zh-main-tbn:hover{
+    	cursor: pointer;
+    	background: #e44545;
+    	color: white;
+    }
+	.zh-subbar{
+	top:215px;
+	left:960px;
+	height:350px;
+	left:958px\0;
+	}
+	.zh-sub-h{
+	    background: #DFDFDF;
+	    width: 180px;
+	    height: 180px;
+	}
+	.zh-sub-btn{
+		height: 35px;
+		background: #CCC;
+		display: block;
+		width: 90px;
+		line-height: 35px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+		-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+	}
+	.zh-sub-btn:hover{
+		color: white;
+		background: #e44545;
+	}
+	.zh-sub-a{
+		margin-top: 50px;
+	}
+  .zh-sub-btn:hover{
+    cursor: pointer;
+  }
+  .zh-delete{
+      display: block;
+      line-height: 35px;
+      height: 35px;
+      border: 1px solid #CCC;
+      margin-left: 100px;
+      background: #CCCCCC;
+      -o-border-radius: 4px;
+      -ms-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -webkit-border-radius: 4px;
+      border-radius: 4px;
+    }
+    .zh-delete:hover{
+      cursor: pointer;
+      background: #e44545;
+      color: white;
+    }
+    .modifyDetail{
+      text-decoration: underline;
+      color: white;
+    }
+    .div{
+      height: 50px;
+      background: #e44545;
+    }
+    .zh-modify{
+      display: block;
+      line-height: 35px;
+    	height: 35px;
+      border: 1px solid #CCC;
+      margin-left: 200px;
+      background: #CCCCCC;
+      -o-border-radius: 4px;
+      -ms-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -webkit-border-radius: 4px;
+      border-radius: 4px;
+    }
+    .zh-modify:hover{
+    	cursor: pointer;
+      background: #e44545;
+      color: white;
+    }
+    .zh-submit{
+      left: 200px;
+    }
+    .zh-main-mobile{
+    	margin-top: 26px;
+    	margin-left: 180px;
+    	width: 500px;
+    	height: 370px;
+    	background: #EEE;
+    	border: 1px solid #CCC;
+    	-o-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 10px;
+    }
+    .zh-tel{
+      margin-top: 200px;
+    	width: 150px;
+      font-size: 24px;
+    }
+    .zh-telphone{
+    	margin-top: 120px;
+    	font-family: 寰蒋闆呴粦;
+    	font-size: 18px;
+    }
+    .zh-checked1{
+    margin-top:30px;
+    font-family:寰蒋闆呴粦;
+    font-size:18px;
+    }
+    .zh-checked2{
+      font-family: 寰蒋闆呴粦;
+      font-size: 18px;
+    }
+    .zh-textc{
+      height: 30px;
+      margin-top: 28px;
+      font-family: 寰蒋闆呴粦;
+      margin-left: 27px;
+    }
+    .zh-text{
+        margin-top: 120px;
+    	height: 30px;
+        font-family: 寰蒋闆呴粦;
+    }
+    .zh-repeate{
+      width: 102px;
+      height: 28px;
+      margin-top: 28px;
+      color: red;
+      background: #CCC;
+      margin-left: 20px;
+      line-height: 28px;
+      -o-border-radius: 4px;
+      -ms-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -webkit-border-radius: 4px;
+      border-radius: 4px;
+    }
+    .zh-repeate:hover{
+      cursor: pointer;
+      background: #e44545;
+      color: white;
+    }
+    .zh-submit{
+      display: block;
+      width: 150px;
+      height: 30px;
+      line-height: 30px;
+      margin-top: 280px;
+      margin-left: 170px;
+      background: #CCC;
+      color: black;
+      -o-border-radius: 4px;
+      -ms-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -webkit-border-radius: 4px;
+      border-radius: 4px;
+    }
+    .zh-submit:hover{
+      background: #e44545;
+      color: white;
+    }
+    .location{
+      font-size: 18px;
+      color: #545454;
+    }
+
+

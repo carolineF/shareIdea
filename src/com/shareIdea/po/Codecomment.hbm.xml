@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-3-31 12:10:03 by Hibernate Tools 4.0.0 -->
+<hibernate-mapping>
+    <class name="com.shareIdea.po.Codecomment" table="codecomment" catalog="huazi">
+        <id name="codeCommentId" type="java.lang.Integer">
+            <column name="codeCommentId" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="codeinfo" class="com.shareIdea.po.Codeinfo" fetch="select">
+            <column name="codeId" />
+        </many-to-one>
+        <many-to-one name="userbaseinfo" class="com.shareIdea.po.Userbaseinfo" fetch="select">
+            <column name="userId" />
+        </many-to-one>
+        <property name="codeCommentContent" type="string">
+            <column name="codeCommentContent" length="65535" />
+        </property>
+        <property name="codeCommentTime" type="string">
+            <column name="codeCommentTime" length="30" />
+        </property>
+    </class>
+</hibernate-mapping>

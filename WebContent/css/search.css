@@ -1,0 +1,35 @@
+/*网页主体部分*/
+.hz-serachBody{ 
+	height: 1140px;border:1px solid #ccc;
+	border-top: 3px solid #CCC;border-bottom: 3px solid #ccc;margin: 20px auto;
+}
+/*搜索目标显示*/
+.hz-target{ 
+	width: 500px;height: 90px;line-height: 90px;margin-left: 25px;
+}
+/*搜索*/
+#hz-search{ 
+	width: 358px;height: 32px;top:-55px;left: 700px;position: relative;
+	border:2px solid #FE3232;border-radius:4px; -ms-border-radius:4px;
+}
+/*搜索输入框*/
+#hz-searchText{
+	width: 258px;height:32px;float: left;border:none;font-size: 22px;color: red;
+	background-color: #ccc;padding-left: 2px;line-height: 32px;
+}
+/*搜索按钮*/
+#hz-searchBtn{float: left;
+	width: 98px;height: 32px;background-color: #FE3232;line-height: 32px;color: white;
+	-webkit-transition:0.5s;-o-transition:0.5s;-moz-transition:0.5s;-ms-transition:0.5s;
+}
+#hz-searchBtn:hover{ 
+	background-color: rgb(255,0,0);font-size:21px;
+}
+/*策略分块展示的主体*/
+.hz-serachBody ul{ 
+	width: 1099px;position: relative;top: -40px;display: block;
+}
+#ideaBlock{
+	width: 1100px;
+	padding-left: 50px;
+}

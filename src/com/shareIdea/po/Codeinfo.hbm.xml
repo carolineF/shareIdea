@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-4-16 16:57:49 by Hibernate Tools 4.0.0 -->
+<hibernate-mapping>
+    <class name="com.shareIdea.po.Codeinfo" table="codeinfo" catalog="huazi" lazy="false">
+        <id name="codeId" type="java.lang.Integer">
+            <column name="codeId" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="ideainfo" class="com.shareIdea.po.Ideainfo" 
+        								fetch="select" lazy="false">
+            <column name="ideaId" />
+        </many-to-one>
+        <many-to-one name="userbaseinfo" class="com.shareIdea.po.Userbaseinfo" 
+        								fetch="select" lazy="false">
+            <column name="userId" />
+        </many-to-one>
+        <property name="codeScore" type="java.lang.Integer">
+            <column name="codeScore" />
+        </property>
+        <property name="codeSize" type="string">
+            <column name="codeSize" length="30" />
+        </property>
+        <property name="codeCommentNo" type="java.lang.Integer">
+            <column name="codeCommentNo" />
+        </property>
+        <property name="codeDownNo" type="java.lang.Integer">
+            <column name="codeDownNo" />
+        </property>
+        <property name="codeCategory" type="string">
+            <column name="codeCategory" length="120" />
+        </property>
+        <property name="nickName" type="string">
+            <column name="nickName" length="30" />
+        </property>
+        <property name="codePath" type="string" lazy="false">
+            <column name="codePath" length="200"  />
+        </property>
+        <property name="codeUpdateTime" type="string">
+            <column name="codeUpdateTime" length="30" />
+        </property>
+        <property name="codeName" type="string">
+            <column name="codeName" length="60" />
+        </property>
+        <property name="codeClickNo" type="java.lang.Integer">
+            <column name="codeClickNo" />
+        </property>
+        <set name="codecomments" table="codecomment" 
+        inverse="true" lazy="false" fetch="select">
+            <key>
+                <column name="codeId" />
+            </key>
+            <one-to-many class="com.shareIdea.po.Codecomment" />
+        </set>
+    </class>
+</hibernate-mapping>

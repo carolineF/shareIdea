@@ -1,0 +1,89 @@
+body{
+	font-style: "Œ¢»Ì—≈∫⁄";
+}
+p{ 
+	margin-bottom: 0px;
+}
+.bodyDiv{
+	position:relative;margin:0 auto;width:800px;
+	-webkit-box-shadow: 1px 0px 15px #969696;
+	-moz-box-shadow: 1px 0px 15px #969696;
+	box-shadow: 1px 0px 15px #969696;
+}
+.w{
+		width: 100%
+	}
+.h50{
+		height: 50px
+	}
+.w500{
+		width: 500px
+	}
+.tac{
+		text-align: center;
+	}
+/* bdd  */
+#surveyDiv{
+	/* background:pink;  */
+	height:948px; 
+}
+
+input{margin:0; padding:0;}
+
+#next{
+	margin-left:40px;
+}
+.pageBtn{
+	width:100px;height:40px;
+	background:#e44545;font-size:30px;
+	line-height:40px;text-align:center
+	margin-top:10px;
+}
+
+.mH1{
+	margin:0 auto 10px;width:300px;height:50px;
+	font-size: 30px;
+	font-weight: normal;
+	text-align:center;
+}
+.fd-radio{
+	margin-left:20px;
+	margin-top: 8px; 
+
+	margin-top:9px\0; /*’Î∂‘IE8£ª*/
+°°°° margin-top:9px !important; /*’Î∂‘firefox°£*/
+	
+	margin-right: 20px;
+	font-size: 14px;
+	display: inline;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+.fd-radio{
+    margin-top:9px;/*chrome*/
+ }
+}
+
+
+.testBlock{ 
+	margin-left: 150px;	
+}
+.disBlock{ 
+	display: block;
+}
+h4{
+	display: inline;
+	font-weight: normal;
+	margin-left: 0;
+}
+.mbtn1{
+	border-radius: 5px;
+	width: 80px;
+	height:30px;
+	margin-left: 800px;
+	margin-top: 35px;
+	background-color: #DEDEDE;
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+	background: url(../image/button.png) -10px -5px;
+}

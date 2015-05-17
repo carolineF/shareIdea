@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <constant name="struts.enable.DynamicMethodInvocation" value="true" />
+    <constant name="struts.devMode" value="false" />
+    <constant name="struts.locale" value="zh_CN"></constant>
+    <constant name="struts.i18n.encoding" value="utf-8"></constant>
+    <package name="shareIdea" extends="struts-default">
+    	<interceptors>
+    		<interceptor name="testInterceptor" 
+    		class="com.shareIdea.action.interceptor.testInterceptor" />
+    		<interceptor-stack name="myStack">
+    			<interceptor-ref name="testInterceptor"></interceptor-ref>
+    			<interceptor-ref name="defaultStack"></interceptor-ref>
+    		</interceptor-stack>
+    	</interceptors>
+    	<default-interceptor-ref name="myStack"></default-interceptor-ref>
+    	
+    	<global-results>
+    		<result name="toLogin">/login.jsp</result>
+    	</global-results>
+    	
+    	<action name="UserFriendMsgAction" class="com.shareIdea.action.UserFriendMsgAction">
+    		<interceptor-ref name="myStack"></interceptor-ref>
+    		<result name="success">/addressList.jsp</result>
+    	</action>
+     	<action name="uploadImage" class="com.shareIdea.action.uploadHeadImageAction">
+     		<interceptor-ref name="myStack"></interceptor-ref>
+       		<result name="success">/personMsg.jsp</result>
+       		<result name="input">/error.jsp</result>
+       	</action>
+    	<action name="*_*" class="com.shareIdea.action.{1}Action" method="{2}">
+    	<interceptor-ref name="myStack"></interceptor-ref>
+    		<result name="toRegister">/register.jsp</result>
+    		<result name="toPersonSpace" type="redirectAction">ideaInfo</result>
+    		<result name="toIndex">/index.jsp</result>
+    		<result name="toSerach">/search.jsp</result>
+    		<result name="toShow">/personMsg.jsp</result>
+    		<result name="toUpdate">/personMsg.jsp</result>
+    		<result name="image">/forgetpassword1.jsp</result>
+    		<result name="toforgetPassword1">/forgetpassword1.jsp</result>
+    		<result name="toforgetPassword2">/forgetpassword2.jsp</result>
+    		<result name="toforgetPassword3">/forgetpassword3.jsp</result>
+    		<result name="toSurvey">/person.jsp</result>
+    		<result name="viewCode">/viewCode.jsp</result>
+    		<result name="toViewStrategy">/viewStrategy.jsp</result>
+    		<result name="viewOtherSpace">/personalidea.jsp</result>
+    	</action>
+    	<action name="ideaInfo" class="com.shareIdea.action.IdeaInfoAction" method="initPageIdeaMsg">
+    		<interceptor-ref name="myStack"></interceptor-ref>
+    		<result name="toPersonSpace">personSpace.jsp</result>
+    	</action>
+    	<action name="downloadCodeFile" class="com.shareIdea.action.downloadCodeFileAction">
+    		 <result name="success" type="stream">
+               <param name="contentType">application/octet-stream;charset=ISO8859-1</param>
+                 <param name="contentDisposition">
+                   attachment;filename="${fileName}"
+                 </param>
+                 <param name="inputName">downloadFile</param>
+                <param name="bufferSize">1024</param>
+             </result>
+    	</action>
+    	<action name="ExitAction" class="com.shareIdea.action.ExitAction">
+    		<result name="toExit">/index.jsp</result>
+    	</action>
+    </package>
+</struts>

@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-3-31 12:10:03 by Hibernate Tools 4.0.0 -->
+<hibernate-mapping>
+    <class name="com.shareIdea.po.Userbaseinfo" table="userbaseinfo" catalog="huazi">
+        <id name="userId" type="java.lang.Integer">
+            <column name="userId" />
+            <generator class="identity" />
+        </id>
+        <property name="nickName" type="string">
+            <column name="nickName" length="30" />
+        </property>
+        <property name="userSex" type="java.lang.Boolean">
+            <column name="userSex" />
+        </property>
+        <property name="userPassword" type="string">
+            <column name="userPassword" length="30" />
+        </property>
+        <property name="phoneNumber" type="string">
+            <column name="phoneNumber" length="11" />
+        </property>
+        <property name="userEmail" type="string">
+            <column name="userEmail" length="30" />
+        </property>
+        <property name="userProf" type="string">
+            <column name="userProf" length="20" />
+        </property>
+        <property name="userAddress" type="string">
+            <column name="userAddress" length="60" />
+        </property>
+        <property name="userIntroduct" type="string">
+            <column name="userIntroduct" length="65535" />
+        </property>
+        <property name="userIdeaNo" type="java.lang.Integer">
+            <column name="userIdeaNo" />
+        </property>
+        <property name="userFriendNo" type="java.lang.Integer">
+            <column name="userFriendNo" />
+        </property>
+        <property name="userScore" type="java.lang.Integer">
+            <column name="userScore" />
+        </property>
+        <property name="lastLoginTime" type="string">
+            <column name="lastLoginTime" length="30" />
+        </property>
+       
+        <property name="nowTime" type="string">
+            <column name="nowTime" length="30" />
+        </property>
+        <property name="headimage" type="string">
+            <column name="headimage" length="200" />
+        </property>
+        <property name="survey" type="string">
+            <column name="survey" length="65535" />
+        </property>
+        <set name="ideainfos" table="ideainfo" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="userId" />
+            </key>
+            <one-to-many class="com.shareIdea.po.Ideainfo" />
+        </set>
+        <set name="friendinfos" table="friendinfo" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="userId" />
+            </key>
+            <one-to-many class="com.shareIdea.po.Friendinfo" />
+        </set>
+        <set name="codeinfos" table="codeinfo" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="userId" />
+            </key>
+            <one-to-many class="com.shareIdea.po.Codeinfo" />
+        </set>
+        <set name="friendgroupings" table="friendgrouping" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="userId" />
+            </key>
+            <one-to-many class="com.shareIdea.po.Friendgrouping" />
+        </set>
+        <set name="ideacomments" table="ideacomment" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="userId" />
+            </key>
+            <one-to-many class="com.shareIdea.po.Ideacomment" />
+        </set>
+        <set name="ideaauthorities" table="ideaauthority" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="userId" />
+            </key>
+            <one-to-many class="com.shareIdea.po.Ideaauthority" />
+        </set>
+        <set name="codecomments" table="codecomment" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="userId" />
+            </key>
+            <one-to-many class="com.shareIdea.po.Codecomment" />
+        </set>
+    </class>
+</hibernate-mapping>

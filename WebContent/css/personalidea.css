@@ -1,0 +1,265 @@
+*{
+	font-family: "Î¢ÈíÑÅºÚ";
+	-webkit-transition:0.5s;-o-transition:0.5s;-moz-transition:0.5s;-ms-transition:0.5s;
+}
+
+.b{
+	border: 1px solid black;
+}
+
+.tn{
+	text-decoration: none;
+}
+.bady{
+	width: 1100px;
+	margin:auto;
+}
+
+.row1{
+	width: 1100px;
+	height: 35px;
+	line-height: 35px;
+}
+
+.contact-icon{
+	width: 16px;
+	height: 16px;
+	background: url(./image/icon.jpg) no-repeat -28px -51px;
+}
+
+.contact{
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+}
+
+.contact:hover{  
+   color: red; 
+   font-size: 18px;
+}
+
+.system{
+	text-decoration: none;
+	font-size: 16px;
+	color: black;
+}
+
+.system:hover{
+	color: red;
+	font-size: 18px;
+}
+
+.system-icon{
+	width: 16px;
+	height: 16px;
+	background: url(./image/icon.jpg) no-repeat -28px -23px;
+}
+
+.register{
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.register:hover{
+	color: red;
+	font-size: 18px;
+}
+
+.login{
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.login:hover{
+	color: red;
+	font-size: 18px;
+}
+
+.nav{
+	width:1100px;
+	height: 90px;
+	line-height: 90px;
+}
+
+.nav-click{
+	background-color: #e44545;
+	color: white;
+}
+
+.upload-idea{
+	width: 115px;
+	height: 90px;
+	border-right: 1px solid #CCC;
+	font-size: 24px;
+	text-align: center;
+	margin-right: 115px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.upload-idea:hover{
+	background-color: #e44545;
+	color: white;
+	font-size: 26px;
+}
+
+.personal-center{
+	width: 115px;
+	height: 90px;
+	border-right: 1px solid #CCC;
+	font-size: 24px;
+	text-align: center;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.personal-center:hover{
+	background-color: #e44545;
+	color: white;
+	font-size: 26px;
+}
+
+.storage-idea{
+	width: 115px;
+	height: 90px;
+	border-right: 1px solid #CCC;
+	font-size: 24px;
+	text-align: center;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.storage-idea:hover{
+	background-color: #e44545;
+	color: white;
+	font-size: 26px;
+}
+
+.index{
+	width: 115px;
+	height: 90px;
+	border-right: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	font-size: 24px;
+	text-align: center;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.index:hover{
+	background-color: #e44545;
+	color: white;
+	font-size: 26px;
+}
+
+.main{
+	width: 1100px;
+	height: 1250px;
+	border-style: solid;
+	border-width: 2px 1px 2px 1px;
+	border-color: #CCC;
+}
+
+.head-name{
+	width: 1100px;
+}
+
+.head-border{
+	width: 100px;
+	height: 100px;
+	margin: 30px 50px 30px 100px;
+	padding: 4px;
+	border: 1px solid #CCC;
+}
+
+.head-icon{
+	width: 100px;
+	height: 100px;
+	background: url(../image/head-icon.png);
+	background-size: cover;
+}
+
+.name{
+	margin-top: 50px;
+	font-size: 16px;
+}
+
+#name{
+	color: red;
+}
+
+.job{
+	margin-top: 25px;
+	font-size: 16px;
+}
+
+#job{
+	color: red;
+}
+
+.idea-fans{
+	margin-left: 250px;
+}
+
+.idea{
+	margin-top: 50px;
+	font-size: 16px;
+}
+
+#idea{
+	color: red;
+}
+
+.fans{
+	margin-top: 25px;
+	font-size: 16px;
+}
+
+#fans{
+	color: red;
+}
+
+#addFriend{
+	padding: 5px 10px;
+	margin-left: 150px;
+	font-size: 16px;
+	background-color: #CCC;
+	border-radius: 3px;
+	margin-top: 68px;
+	cursor: pointer;
+}
+
+#addFriend:hover{
+	background-color: #e44545;
+	color: white;
+	font-size: 18px;
+}
+
+.idea-body{
+	width: 1100px;
+	border-top: 1px solid #CCC;
+	margin-top: 175px;
+	padding-top: 20px;
+}
+
+.right{
+	width: 1050px;
+	height: 1030px;
+	border-width: 1px 0px 1px 1px;
+	border-style: solid;
+	border-color: #CCC;
+	border-radius: 3px 0px 0px 3px;
+	padding: 0 25px;
+	overflow-y:scroll;
+	overflow-x:hidden;
+}
+
+.personal-idea-label{
+	width: 780px;
+	font-size: 16px;
+	padding: 10px 0px 10px 10px;
+}
+#ideaBlock{
+	width: 780px;
+	padding-left: 15px;
+}

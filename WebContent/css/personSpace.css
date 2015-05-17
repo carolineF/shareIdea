@@ -1,0 +1,194 @@
+  	.zh-main{
+  	     height: 1050px;
+  	}
+  	.zh-m{
+  	    height: 1030px;
+  	    background: #F9F9F9;
+  	    margin-top: 18px;
+  	    border: 1px solid #CCC;
+  	}
+    .zh-main-header{
+       	height: 160px;
+        border-bottom: 1px solid #CCC;
+    }
+    .zh-main-img{
+        margin-left: 25px;
+        margin-top: 28px;
+        background: #DFDFDF;
+    }
+    .zh-main-t1{
+        height: 125px;
+        margin-top: 28px;
+        margin-left: 155px;
+    }
+    .zh-main-tr{
+        height: 30px;
+    }
+    /* tr{
+    	margin-top:20px;text-align:center;display:inline-block;width:600px;height:40px;
+    } */
+    .zh-main-td1{
+        width: 30%;
+    }
+    .zh-showTd{
+      width: 50%;
+    }
+     .codeMsg{
+      width: 110px; display: inline-block;text-align: center;
+    }
+    .headCodeMsg{
+      width: 200px;display: inline-block;
+    }
+    .zh-showTr tr{
+      display: inline-block;width: 100%;height: 40px;
+    }
+     .zh-showTr{
+      margin-left: 20px;
+      height: 40px;
+      width: 766px;
+      margin-top: 20px;line-height: 40px;
+    }
+    .zh-main-btn1{
+        display: block;
+        background: #CCC;
+        height: 30px; 
+        color: #e44545;
+        line-height: 30px;
+        border-radius: 4px;
+    }
+    .zh-main-btn1:hover{
+        background: #e44545;
+        color: white;
+        cursor: pointer;
+    }
+    .zh-main-t2{
+        height: 125px;
+        margin-top: 28px;
+        margin-left: 560px;
+    }
+    .zh-main-td2{
+        width: 50%;
+    }
+    .zh-main-td3{
+        color: #e44545;
+    }
+    .zh-main-r{
+        margin-left: 670px;
+        height: 160px;
+        border-left: 1px solid #CCC;
+    }
+    .zh-main-t3{
+        margin-left: 30px;
+        height: 125px;
+        width: 350px;
+        margin-top: 28px;
+    }
+    .zh-main-nav{
+        background: #FBFBFB;
+        border-bottom: 1px solid #CCC;
+        width: 1100px;
+        margin-top: 20px;
+        height: 60px;
+    }
+    .zh-nav-mo{ 
+    	width: 100px;height: 40px;text-align: center;line-height:40px;border-radius: 10px;background: #DFDFDF;
+    }
+    .zh-main-a{
+        color: black;
+        font-size: 30px;
+    }
+    .zh-progress1{
+      background-color: rgb(50,155,33);
+      height: 15px;
+      width: 120px;
+    }
+    .zh-progress2{
+      background-color:lightgray;
+      height: 15px;
+      width: 30px;
+    }
+    .zh-main-sort{
+        margin-top: 96px;
+        margin-left: 10px;
+        z-index: 3;
+    }
+    
+    .zh-main-right{
+        width: 800px;
+        height: 760px;
+        margin-top: 95px;
+        margin-left: 270px;
+        border: 1px solid #CCC;
+    }
+    .zh-main-rf{
+      zoom: 1;
+      border-bottom: 1px solid #CCC;
+    }
+    .zh-main-allChoice{
+        top: 20px;
+        width: 15px;
+        height: 15px;
+        vertical-align:text-bottom;
+    }
+    .zh-main-upload{
+        left: 530px;
+        top: 10px;
+        width: 82px;
+        height: 30px;
+        color: black;
+        line-height: 30px;
+        border: 1px solid #CCC;
+        background: #D5D5D5;
+        border-radius: 4px;
+    }
+    .zh-main-upload:hover{
+      background: #e44545;
+      color: white;
+    }
+    .zh-main-onload{
+        top: 10px;
+        left: 640px;
+        color: #e44545;
+        height: 30px;
+        line-height: 30px;
+    }
+    .zh-main-line{
+      left: 686px;
+      top: 10px;
+      color: #e44545;
+      height: 30px;
+      line-height: 30px;
+    }
+    .zh-main-delete{
+      left: 700px;
+    }
+   
+    #my-strategy{
+      background: #e44545;
+      color: white;
+    }
+    #ideaBlock{
+    width: 800px;
+    padding-left: 25px;
+}
+  .zh-myCode{
+    height: 40px;
+    border-bottom: 1px solid #CCC;
+  }
+  .zh-myFile{
+    margin-left: 30px;
+    color: #e44545;
+    line-height: 40px;
+  }
+  .zh-cd{
+    line-height: 40px;
+    margin-right: 60px;
+  }
+  .zh-showCode{
+    margin: 15px;
+    background: white;
+    border: 1px solid #CCC;
+    height: 560px;
+    overflow: scroll;
+    overflow-x:hidden;
+  }

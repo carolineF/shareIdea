@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory>
+  <property name="hibernate.current_session_context_class">thread</property>
+  <property name="show_sql">true</property>
+  <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+  <property name="hibernate.connection.password">19940628feng</property>
+  <property name="hibernate.connection.url">jdbc:mysql://127.0.0.1:3306/huazi</property>
+  <property name="hibernate.connection.username">root</property>
+  <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+        <!--用c3p0连接池连接所允许的最大连接数--> 
+  <property name="hibernate.c3p0.max_size">20</property> 
+        <!-- c3p0所允许的最少连接数 --> 
+  <property name="hibernate.c3p0.min_size">1</property> 
+        <!-- 指定连接池连接失效的时间 --> 
+  <property name="hibernate.c3p0.timeout">50</property> 
+        <!-- 指定连接池缓存最大的存储多少个statement --> 
+  <property name="hibernate.c3p0.max_statements">100</property> 
+        <!-- hibernate.c3p0.timeout表示连接对象多长时间应该被销毁， 
+          注意，是”应该“，但是谁来销毁它呢，需要一个线程按照hibernate.c3p0.idle_test_period 
+         设定的时间间隔去自动校验这些链接对象并销毁timeout的 --> 
+  <property name="hibernate.c3p0.idle_test_period">30</property> 
+       <!--  当连接池里面的连接用完的时候，C3P0一下获取的新的连接数  --> 
+  <property name="hibernate.c3p0.acquire_increment">2</property> 
+        <!-- 每次都验证连接是否可用 --> 
+  <property name="hibernate.c3p0.validate">true</property>
+  <mapping resource="com/shareIdea/po/Codecomment.hbm.xml"/>
+  <mapping resource="com/shareIdea/po/Codeinfo.hbm.xml"/>
+  <mapping resource="com/shareIdea/po/Friendgrouping.hbm.xml"/>
+  <mapping resource="com/shareIdea/po/Friendinfo.hbm.xml"/>
+  <mapping resource="com/shareIdea/po/Ideaauthority.hbm.xml"/>
+  <mapping resource="com/shareIdea/po/Ideacomment.hbm.xml"/>
+  <mapping resource="com/shareIdea/po/Ideainfo.hbm.xml"/>
+  <mapping resource="com/shareIdea/po/Ideakeyword.hbm.xml"/>
+  <mapping resource="com/shareIdea/po/Userbaseinfo.hbm.xml"/>
+ </session-factory>
+</hibernate-configuration>

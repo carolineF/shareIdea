@@ -1,0 +1,310 @@
+pre {
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+    width: 1050px;
+	height: 480px;
+	overflow-y:scroll;
+	overflow-x:scroll;
+	border: 1px solid #C7C5C5;
+	background:#eee;
+	margin:0px;
+}
+/*查看资源-策略*/
+.w1100{
+	width: 1100px;
+	margin-left:auto;
+	margin-right: auto;
+}
+textarea{
+	resize:none;
+	outline: none;
+}
+
+/*我的评论文本框*/
+#bd-mycmt-text{
+	width: 900px;
+	height: 100px;
+	text-indent: 5px;
+	padding: 5px;
+	border:1px solid #ccc;
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 1px 2px #969696;
+	-moz-box-shadow: 0px 1px 2px #969696;
+	box-shadow: 0px 1px 2px #969696;
+}
+/*网站主体浅灰色背景*/
+.bd-main{
+    position: absolute;
+}
+/*网站主体容器*/
+.bd-main-content{
+	width: 1098px;
+    background: white;
+    border: 1px solid #C7C5C5;
+}
+/*主体第一层*/
+.bd-main-top{
+	width: 1088px;
+	height: 40px;
+	line-height: 40px;
+}
+/*上、下一篇*/
+.bd-next-last{
+	height: 30px;
+	line-height: 30px;
+}
+/*按钮*/
+.bd-button{
+	border: none;
+	background: #CCCACA;
+	font-family: "微软雅黑";
+}
+.bd-button:hover{
+	background: #e44545;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;/*修改的地方*/
+}
+.bd-sub-btn{
+	color: white;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 500px;
+	background: #e44545;
+	font-family: "微软雅黑";
+}
+.bd-sub-btn:hover{
+	cursor: pointer;
+	font-size: 20px;/*修改*/
+}
+/*资源评论区*/
+.bd-main-cmt{
+	width: 1076px;
+    border: 1px solid #C7C5C5;
+}
+/*资源评论区顶部*/
+.bd-main-cmt-top{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #C9C9C9;
+}
+.bd-main-cmt-top p{
+	margin-left: 15px;
+}
+/*他人评论区域*/
+.bd-cmt-blocks{
+    border-bottom: 1px solid #C9C9C9;
+}
+/*具体每一条评论块*/
+.bd-cmt-block{
+    height: 108px;
+	border-bottom: 1px dotted #C9C9C9;
+}
+/*隐藏块*/
+.bd-block-hidden{
+    display: none;
+}
+/*资源评论区的左侧他人头像*/
+.bd-cmt-img{
+   height: 108px;
+   width: 108px;
+}
+/*资源评论区右侧*/
+.bd-cmt-right{
+	width: 958px;
+	height: 108px;
+}
+/*资源评论区右侧*/
+.bd-cmt-rtop{
+	height: 30px;
+	line-height: 30px;
+}
+/*评论者昵称*/
+.bd-othername{
+	font-weight: bold;
+}
+.bd-othername:hover{
+	cursor: pointer;
+	color: red;
+}
+/*他人的评论内容*/
+.bd-other-cmt{
+    width: 680px;
+    height: 64px;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+/*资源评论区底部*/
+.bd-cmt-bot{
+	height: 42px;
+	line-height: 42px;
+	border: none;
+}
+/*我要评论区域*/
+.bd-my-cmt{
+	width: 1076px;
+	height: 200px;
+	border: 1px solid #C7C5C5;
+}
+.bd-my-cmt p{
+	margin-left: 15px;
+}
+/*我的评论box*/
+.bd-mycmt-con{
+	width: 900px;
+	height: 120px;
+}
+/*我的评论文本框*/
+#bd-mycmt-text{
+	width: 900px;
+	height: 100px;
+	text-indent: 5px;
+	padding: 5px;
+	border:1px solid #ccc;
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 1px 2px #969696;
+	-moz-box-shadow: 0px 1px 2px #969696;
+	box-shadow: 0px 1px 2px #969696;
+}
+/*限定评论字数*/
+#bd-font-count{
+   position: absolute; 
+   margin-left: 800px;
+}
+/*提交按钮*/
+#bd-submit{
+	border: none;
+	margin-top: -20px;
+}
+
+/*查看策略按钮*/
+#bd-vs-btn{
+	line-height: 30px;
+	margin-right: 40px;
+}
+.bb1s{
+	 border-bottom: 1px solid #C9C9C9;
+}
+/*私有部分start*/
+/*查看资源代码主体部分上侧：代码区*/
+#bd-main-con{
+	width: 1076px;
+	height: 800px;/*调试高度*/
+	margin-top: -1px;
+	border: 1px solid #C9C9C9;
+}
+/*（公共）查看资源代码主体上侧栏：代码名称、昵称、上传时间*/
+.bd-main-title{
+    height: 45px;
+    line-height: 45px;
+    font-family: "微软雅黑";
+    border-bottom: 1px solid #C9C9C9;
+}
+/*查看代码 资源描述区*/
+#bd-des{
+    height: 170px;
+}
+
+/*当前代码的文件名称*/
+#bd-cf-name{
+	width: 400px;
+	height: 45px;
+	overflow: hidden;
+	text-indent: 20px;
+}
+/*当前代码的上传者昵称*/
+#bd-upload-name{
+   width: 160px;
+   height: 40px;
+   overflow: hidden;
+}
+/*资源描述条和代码展示条*/
+.bd-tit-bar{
+	color: white;
+	height: 30px;
+	line-height: 30px;
+	width: 120px;
+	background-color: #e44545;
+}
+.bd-tit-bar:hover{
+	font-size: 22px;
+}
+/*资源描述盒子*/
+#bd-zyms-item{
+	width: 350px;
+	height: 127px;
+	background: white;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	border: 1px solid #C7C5C5;
+	overflow: hidden;
+}
+/*资源描述信息*/
+.bd-zy-info{
+	overflow: hidden;
+	line-height: 30px;
+	width: 150px;
+	height: 30px;
+}
+.bd-zy-info i{
+	font-style: normal;
+}
+/*查看策略、在线运行按钮框*/
+.bd-zyms-btn{
+   font-size: 18px;
+   font-family: "微软雅黑";
+}
+.bd-zyms-btn:hover{
+   cursor: pointer;
+}
+/*代码展示框*/
+#bd-show-c{
+	
+}
+/*查看代码 代码展示区*/
+#bd-show{
+    height: 440px;
+}
+/*下载按钮*/
+#bd-load-btn{
+	color: white;
+	font-size: 18px;
+	margin-left: 500px;
+	margin-top:100px;
+}
+#bd-load-btn:hover{
+	font-size: 20px;
+	cursor: pointer;
+}
+/*在线运行按钮*/
+#bd-run-btn{
+	color: white;
+	height: 30px;
+	line-height: 30px;
+	background: #e44545;
+}
+#bd-run-btn:hover{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+

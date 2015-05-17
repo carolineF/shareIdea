@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-3-31 12:10:03 by Hibernate Tools 4.0.0 -->
+<hibernate-mapping>
+    <class name="com.shareIdea.po.Ideakeyword" table="ideakeyword" catalog="huazi">
+        <id name="keyWordId" type="java.lang.Integer">
+            <column name="keyWordId" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="ideainfo" class="com.shareIdea.po.Ideainfo" fetch="select">
+            <column name="ideaId" />
+        </many-to-one>
+        <property name="keyWord" type="string">
+            <column name="keyWord" length="60" />
+        </property>
+    </class>
+</hibernate-mapping>

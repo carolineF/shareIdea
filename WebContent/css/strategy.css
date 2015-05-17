@@ -1,0 +1,119 @@
+.hz-bodySt{ 
+	width: 1100px;height: 1250px;margin: 0px auto;
+}
+
+.hz-sort1Deg ul li:hover{ 
+	background: #e44545;color: white;border-radius: 4px; font-size: 25px;cursor: pointer;
+}
+.hz-checkSort1{
+	background: #e44545;color: white; 
+}
+.hz-sort23Deg{ 
+	width: 1100px;height: 145px;display: inline-block;border:1px solid #ccc;
+}
+.hz-sort2Deg{ 
+	width:1100px;height: 54px;border-bottom: 1px solid block;
+}
+.hz-s2deg{ 
+	width: 220px;height: 54px;border:1px solid #ccc;display: inline-block;float: left;line-height: 54px;
+	font-size: 20px;border-left: none;border-top: none;
+}
+.hz-serach{ 
+	width: 417px;height: 54px;border-bottom:1px solid #ccc;display: inline-block;float: right; 
+}
+#hz-searchBorder{ 
+	width: 358px;height: 32px;border:2px solid #ccc;border-radius:4px; -ms-border-radius:4px;
+	margin:10px auto;
+}
+#hz-searchText{
+	width: 258px;height:32px;float: left;border:none;font-size: 22px;/*修改*/
+	padding-left: 2px;line-height: 32px;
+}
+#hz-searchBtn{
+	float: left;width: 98px;height: 32px;background-color: #e44545;line-height: 32px;color: white;
+	-webkit-transition:0.5s;-o-transition:0.5s;-moz-transition:0.5s;-ms-transition:0.5s;
+}
+#hz-searchBtn:hover{ 
+	background-color: #e44545;font-size:21px;
+}
+
+#hz-FsearchBorder{ 
+	width: 358px;height: 32px;border:2px solid #ccc;border-radius:4px; -ms-border-radius:4px;
+	margin:10px auto;
+}
+#hz-FsearchText{
+	width: 258px;height:32px;float: left;border:none;font-size: 22px;color: white;
+	padding-left: 2px;line-height: 32px;
+}
+#hz-FsearchBtn{
+	float: left;width: 98px;height: 32px;background-color: #e44545;line-height: 32px;color: white;
+	-webkit-transition:0.5s;-o-transition:0.5s;-moz-transition:0.5s;-ms-transition:0.5s;
+}
+#hz-searchBtn:hover{ 
+	background-color: #e44545;font-size:21px;
+}
+.hz-sort3Deg{ 
+	width: 1100px;height: 45px;border-bottom: 1px solid #ccc;border-top: 1px solid #ccc;
+}
+.hz-tr1{ 
+	width: 230px;height: 45px;line-height: 45px;font-size: 18px;
+}
+.hz-tr2{ 
+	width: 650px;height: 45px;float: right;margin-right:200px;position: relative;top: -45px;line-height: 45px;
+}
+.hz-tr2 ul li{ 
+	display: inline-block;width: 110px;height: 30px;margin-left: 20px;float: left;
+	text-align: center;cursor: pointer;line-height: 30px;margin-top: 10px;
+}
+.hz-sortAll{ 
+	display: block;float: right;height: 30px;width: 55px;
+	margin-top: 10px;line-height: 30px;cursor: pointer;margin-right: 10px;
+}
+.hz-sort3CheckedAll{ 
+	background: #e44545;color: white;
+}
+.hz-sort3Checked{ 
+	background: #e44545;color: white;
+}
+.hz-select2Deg{ 
+	color: white;border-bottom: none;background: #e44545;
+}
+
+.hz-Fsort23Deg{ 
+	width: 1100px;height: 235px;display: inline-block;border:1px solid #ccc;
+}
+.hz-Ftr2{ 
+	width: 650px;height: 45px;float: right;position: relative;top: -45px;line-height: 45px;
+}
+.hz-Ftr2 ul li{ 
+	display: inline-block;width: 55px;height: 30px;margin-left: 10px;float: left;
+	text-align: center;cursor: pointer;line-height: 30px;margin-top: 10px;
+}
+
+.hz-hotSts{ 
+	width: 210px;height: 400px;border:1px solid #ccc;float: left;margin-top: 20px;
+}
+.hz-HotStstitle{ 
+	width:210px;display: inline-block;height: 35px;line-height: 35px;background: #e44545;color: white; 
+}
+.hz-hotSts ol li{ 
+	height: 40px;width: 100%;line-height: 40px;font-size: 18px;
+	-webkit-transition:0.5s;-moz-transition:0.5s;-o-transition:0.5s;-ms-transition:0.5s;
+}
+.hz-hotSts ol li:hover{ 
+	background: #e44545;cursor: pointer;border-radius: 4px;
+}
+.hz-showSts{ 
+	width: 880px;height: 1000px;border:1px solid #ccc;float: right;margin-top: 20px;
+}
+#ideaBlock{
+	width: 880px;
+	padding-left: 65px;
+}
+.firstDeg{ 
+	width: 1100px;height: 60px;text-align: center;line-height: 60px;border: 1px solid #ccc;border-bottom: none;
+	font-size: 20px;margin-bottom: 20px;border-bottom: 1px solid #ccc;
+}
+.firstDeg li{ 
+	float:left;display: inline-block;width: 218px;border-left: 1px solid #ccc;margin: 0px;padding: 0px;
+}

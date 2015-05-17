@@ -1,0 +1,130 @@
+#content{
+	margin:20px auto 0px;
+	width:1100px;
+	height:670px;/*修改的地方*/
+}
+/*修改过的地方*/
+img{
+	width: 60px;
+	height: 60px;
+}
+#substance{
+	position:relative;
+	border:3px solid #E3E3E3;
+	top:20px;
+	width:1000px;
+	height:630px;/*修改的地方*/
+	margin:0px auto;
+	background:white;
+	overflow: hidden;
+}
+
+#friend{
+	margin:2px 0px 0px 0px;
+	font-size:15px;
+	list-style:outside none none;
+	cursor:pointer;
+	transition:background 1s;
+	-moz-transition:background 1s; /* Firefox 4 */
+	-webkit-transition:background 1s; /* Safari and Chrome */
+	-o-transition:background 1s; /* Opera */
+}
+#friend:hover{	
+	background:#DFDFDF;
+}
+#addressNewRailing{
+	margin-top:20px;/*修改的地方*/
+	margin-left:20px;
+	font-size:16px;
+	float:left;
+	width:720px;
+	height:40px;
+	background:#F6F6F6;
+}
+.addressListBar{ 
+	width: 120px;height: 40px;background-color:#EEEEEE;float: left;font-size: 21px;text-align: center;
+	line-height: 40px;margin-left: 30px;border-radius: 5px;transition:background 0.4s;
+}
+.addressListBar:hover{ 
+	cursor: pointer;background: #e44545;color: white;
+}
+.checkedBar{ 
+	background: #e44545;color: white;
+}
+.addressBarContext{ 
+	width: 300px;height: 240px;margin:130px auto;background: #EEEEEE;border-radius: 10px;
+	margin-left: 480px;
+}
+.addressBarContext div{ 	
+	width: 300px;height: 50px;font-size: 22px;text-align: center;line-height: 50px;
+}
+.addressBarContext span{ 
+	font-size: 20px;width: 50px;height: 40px;display: inline-block;margin-left: 10px;
+}
+.addressBarContext input{ 
+	width: 200px;height: 40px;font-size: 20px;border:none;margin-left:4px; 
+}
+.barBtn{ 
+	width: 60px;height: 30px;font-size: 22px;background: #e44545;display: inline-block;
+	border-radius: 5px;color: white;text-align: center;line-height: 30px;margin-left: 58px;
+	margin-top: 16px;
+}
+#sortGroup{ 
+	width: 200px;height: 35px;display:inline-block;font-size: 20px;border:none;
+}
+/*通讯录的主体*/
+.addressMain{
+	margin-top: 80px;
+	height: 530px;
+	width: 720px;
+	margin-left: 270px;
+	border: 1px solid #ccc;
+	overflow-y: scroll;
+	overflow-x:hidden;
+}
+.addressMainBar{
+	height: 40px;
+	border-bottom: 1px solid #ccc; 
+}
+/*修改的地方*/
+.checkbox{
+	width: 80px;
+	height: 60px;
+	line-height: 38px;
+	margin-top: 15px;
+	margin-left: 19px;
+}
+/*修改的地方头像前面的选择框*/
+.checkboxImg{
+	vertical-align: top;
+	margin-top: 5px;
+	width: 80px;
+	height: 60px;
+}
+.nickName{
+	margin-left: 140px;
+	line-height: 38px;
+}
+/*修改的地方*/
+.headImg{
+	width: 132px;
+	height: 70px;
+	margin-top:10px;
+	line-height: 40px;
+}
+/*修改的地方*/
+.headNick{
+	line-height: 70px;
+	width: 204px;
+}
+.delete{
+	line-height: 70px;
+	width: 180px;
+}
+.font:hover{
+	cursor: pointer;
+	color: #e44545;
+}
+.tableTr{
+	border-bottom: 1px dashed #ccc;
+}

@@ -1,0 +1,179 @@
+#headbackground{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.b{
+	border: 1px solid black;
+}
+
+.background{
+	background-color: #EFEFEF;
+}
+
+.h30{
+	height: 30px;
+}
+
+.h90{
+	height: 90px;
+}
+
+.lh90{
+	line-height: 90px;
+}
+
+.lh60{
+	line-height: 60px;
+}
+
+.lh30{
+	line-height: 30px;
+}
+
+.ff{
+	font-family: "黑体";
+}
+
+.cursorp:hover{
+	cursor: pointer;
+	color: red;
+}
+
+.index:hover{
+	color: red;
+}
+
+.fcr{
+	color: red;
+}
+
+.w180{
+	width: 180px;
+}
+
+.w300{
+	width: 300px;
+}
+
+.w1100{
+	width: 1100px;
+}
+
+.h60{
+	height: 60px;
+}
+
+.h30{
+	height: 30px;
+}
+
+.h600{
+	height: 600px;
+}
+
+.f30{
+	font-size: 30px;
+}
+
+.rememberforget{
+	margin-left: 90px;
+	
+}
+
+.rememberpassword{
+	color: #fe3232;
+	fontSize:16px;
+}
+
+.forgetpassword{
+	color: #818383;
+	margin-right: 25px;
+	text-decoration: none;
+}
+
+.forgetpassword:hover{
+	text-decoration: underline;
+}
+
+.forgetpassword:hover{
+	color: red;
+	cursor: pointer;
+}
+
+#remembercheckbox{
+	width: 15px;
+	height: 15px;
+	margin-top: 5px;
+}
+
+#loginform{
+	border:1px solid #c9c9c9;
+	margin-top:70px;
+}
+
+#loginbody{
+	margin-left: 150px;
+}
+
+#cartoon{
+	width: 470px;
+	height: 300px;
+	margin-top:70px;
+}
+
+#username{
+	border-radius:4px;
+	border: 1px solid #c9c9c9;
+	outline:medium;
+	color: #BBBBBB;
+}
+
+#password{
+	border-radius:4px;
+	border: 1px solid #c9c9c9;
+	outline:medium
+}
+
+#account{
+	margin-left: 90px;
+}
+
+/*登录按钮*/
+#loginbtn{
+	width: 190px;
+	height: 35px;
+	line-height: 35px;
+	margin-right: 55px;
+	background-color: #fe3232;
+	border: none;
+	border-radius: 3px;
+	color: white;
+}
+
+#loginbtn:hover{
+	cursor: pointer;
+	background-color: #F51C1C;
+	font-size: 21px;
+}
+/*注册按钮*/
+#register{
+	width: 190px;
+	height: 35px;
+	line-height: 35px;
+	margin-right: 55px;
+	background-color: #8AB0D5;
+	border: none;
+	border-radius: 3px;
+	color: white;
+}
+
+#register:hover{
+	cursor: pointer;
+	background-color: #0E8DD6;
+	font-size: 21px;
+}
+.h600{
+	height: 600px;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-3-31 12:10:03 by Hibernate Tools 4.0.0 -->
+<hibernate-mapping>
+    <class name="com.shareIdea.po.Friendinfo" table="friendinfo" catalog="huazi">
+        <id name="fid" type="int">
+            <column name="fid" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="friendgrouping" class="com.shareIdea.po.Friendgrouping" fetch="select">
+            <column name="groupId" />
+        </many-to-one>
+        <many-to-one name="userbaseinfo" class="com.shareIdea.po.Userbaseinfo" fetch="select">
+            <column name="userId" />
+        </many-to-one>
+    </class>
+</hibernate-mapping>

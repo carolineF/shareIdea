@@ -1,0 +1,207 @@
+*{
+	font-family: "微软雅黑";
+}
+
+.background{
+	background-color: #EFEFEF;
+}
+
+.b{
+	border: 1px solid black;
+}
+
+.h40{
+	height: 40px;
+}
+
+.h90{
+	height: 90px;
+}
+
+.w1100{
+	width: 1100px;
+}
+
+.cursorp:hover{
+	cursor: pointer;
+	color: red;
+}
+
+.lh90{
+	line-height: 90px;
+}
+
+.f30{
+	font-size: 30px;
+}
+
+.di{
+	display: inline;
+}
+
+.tr8{
+	-webkit-transition:0.5s;
+}
+
+.cw{
+	color: white;
+}
+
+.registerbody{
+	width: 966px;
+	margin: auto;
+	margin-top: 50px;
+	padding-top: 10px;
+	background-color:#F0EFEF;
+	margin-bottom: 30px;
+}
+
+.registerbackground{
+	width: 966px;
+	height: 386px;
+	background: url(../image/register.png);
+}
+
+.register{
+	width: 320px;
+	margin-left: 390px;
+}
+
+.click{
+	background-color: #D8D4C7;
+	color: red;
+}
+
+#tel{
+	width: 100px;
+	height: 46px;
+	font-size: 20px;
+	border-radius: 25px 25px 0px 0px;
+	cursor: pointer;
+	line-height: 45px;
+	text-align: center;
+	-webkit-transition:0.5s;-o-transition:0.5s;-moz-transition:0.5s;-ms-transition:0.5s;
+}
+
+#tel:hover{
+	background-color: #D8D4C7;
+	color: red;
+}
+
+#email{
+	width: 100px;
+	height: 46px;
+	font-size: 20px;
+	border-radius: 25px 25px 0px 0px;
+	line-height: 45px;
+	text-align: center;
+	-webkit-transition:0.5s;-o-transition:0.5s;-moz-transition:0.5s;-ms-transition:0.5s;
+}
+
+#email:hover{
+	background-color: #D8D4C7;
+	cursor: pointer;
+	color: red;
+}
+
+.form{
+	padding-top: 25px;
+}
+
+.onblur{
+	border: 1px solid #989893;
+}
+
+#number{
+	width: 220px;
+	height: 25px;
+	border-radius: 4px;
+	outline: medium;
+}
+
+#verify{
+	width: 115px;
+	height: 25px;
+	border-radius: 4px;
+	margin-left: 2px;
+	outline: medium;
+}
+
+#getverify{
+	width: 100px;
+	height: 30px;
+	border: none;
+	border-radius: 3px;
+	background-color: #e44545;
+	color: black;
+	outline: none;
+	font-size: 15px;
+}
+
+#getverify:hover{
+	cursor: pointer;
+	color: white;
+	font-size: 16px;
+}
+
+#name{
+	width: 220px;
+	height: 25px;
+	border-radius: 4px;
+	outline: medium;
+}
+
+#password{
+	width: 220px;
+	height: 25px;
+	border-radius: 4px;
+	outline: medium;
+}
+
+#affirm{
+	width: 220px;
+	height: 25px;
+	border-radius: 4px;
+	outline: medium;
+}
+
+.verPassword{
+	margin-bottom:14px;
+}
+
+.errorBorder{
+	height: 40px;
+	margin-top: 30px;
+	line-height: 40px;
+	background-image: url(../image/error.jpg);
+	background-repeat: no-repeat;
+	display: none;
+}
+
+.reminder{
+	font-size: 14px;
+	color: white;
+	margin-left: 40px;
+
+/*	border: 1px solid black;*/
+/*	background-image: url(../image/error.jpg);*/
+}
+
+#registerbtn{
+	position: absolute;
+	top: 500px;
+	width: 100px;
+	height: 40px;
+	font-size: 20px;
+	margin-left: 130px;
+	margin-top: 0px;
+	border: none;
+	border-radius: 3px;
+	background-color: #D5D1C4;
+	color: red;
+}
+
+#registerbtn:hover{
+	cursor: pointer;
+	color: black;
+}
